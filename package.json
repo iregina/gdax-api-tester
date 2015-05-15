@@ -4,6 +4,8 @@
   "description": "Scripts for making test calls to the Coinbase Exchange API v1",
   "repository": "https://github.com/jborseth/coinbase-exchange-api-tester",
   "dependencies": {
+    "async": "^0.9.0",
+    "coinbase-exchange": "^0.2.0"
   },
   "license": "MIT"
 }
