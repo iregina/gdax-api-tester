@@ -8,11 +8,11 @@
 var publicClient = require('../../../client').publicClient;
 
 
-publicClient.getProducts(function(err, response) {
+publicClient.getProducts(function(err, response, data) {
   if (err) {
     console.log(err);
     return;
   }
 
-  console.log(response.body);
+  console.log(data);
 });

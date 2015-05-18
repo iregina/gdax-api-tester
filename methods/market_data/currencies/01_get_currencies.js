@@ -8,11 +8,11 @@
 var publicClient = require('../../../client').publicClient;
 
 
-publicClient.getCurrencies(function(err, response) {
+publicClient.getCurrencies(function(err, response, data) {
   if (err) {
     console.log(err);
     return;
   }
 
-  console.log(response.body);
+  console.log(data);
 });
