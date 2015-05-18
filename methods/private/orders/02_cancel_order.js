@@ -31,13 +31,13 @@ async.waterfall([
     // Alternatively, you can manually specify an order ID here
     // var orderId = '';
 
-    authedClient.getOrder(orderId, function(err, response, order) {
+    authedClient.cancelOrder(orderId, function(err, response, result) {
       if (err) {
         console.log(err);
         return;
       }
 
-      console.log(order);
+      console.log(result);
     });
   }
 ]);
