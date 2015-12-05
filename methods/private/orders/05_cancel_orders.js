@@ -1,8 +1,8 @@
 /**
- * Cancel an order
+ * Cancel all orders
  *
  * Docs:
- *   https://docs.exchange.coinbase.com/#cancel-an-order
+ *   https://docs.exchange.coinbase.com/#cancel-all
  */
 
 var authedClient = require('../../../client').authedClient;
