@@ -1,14 +1,10 @@
 # GDAX API Tester
 
-For GDAX API v1.
+This repo provides examples of how to use the official [GDAX NodeJS client library](https://github.com/coinbase/gdax-node) and allows for quick and easy testing of GDAX API endpoints.
 
-## Purpose
+**_Please use only with the [GDAX Sandbox](https://public.sandbox.gdax.com/). These files are intended as examples only and may contain undesirable actions such as buys and sells at undesirable prices!_**
 
-This repo contains scripts to allow you to easily test GDAX Sandbox API endpoints to see the actual response returned by the API. This is useful for quickly exploring how the GDAX API works.
-
-**_Please use only with GDAX Sandbox accounts (https://public.sandbox.gdax.com/). These files are intended as examples only and may contain undesirable actions such as buys and sells at undesirable prices._**
-
-## Usage
+## Instructions
 
 1. git clone https://github.com/jborseth/gdax-api-tester.git
 2. cd gdax-api-tester
