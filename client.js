@@ -1,4 +1,4 @@
-var CoinbaseExchange = require('coinbase-exchange');
+var Gdax = require('gdax');
 
 /**
  * Enter your Coinbase Exchange Sandbox API key, API secret, and the passphrase
@@ -11,12 +11,12 @@ var passphrase = '123456789abcdef';
 
 
 // For the sandbox, use this
-var apiURL = 'https://api-public.sandbox.exchange.coinbase.com';
-var authedClient = new CoinbaseExchange.AuthenticatedClient(key, b64secret, passphrase, apiURL);
+var apiURL = 'https://api-public.sandbox.gdax.com';
+var authedClient = new Gdax.AuthenticatedClient(key, b64secret, passphrase, apiURL);
 
 // For the live API, use this. Example only. Please use the sandbox while testing.
-// var authedClient = new CoinbaseExchange.AuthenticatedClient(key, b64secret, passphrase);
+// var authedClient = new Gdax.AuthenticatedClient(key, b64secret, passphrase);
 
 
 exports.authedClient = authedClient;
-exports.publicClient = new CoinbaseExchange.PublicClient();
+exports.publicClient = new Gdax.PublicClient('BTC-USD', apiURL);
