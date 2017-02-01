@@ -1,19 +1,24 @@
-# Coinbase Exchange API Tester
+# GDAX API Tester
 
-For Coinbase Exchange API v1.
+For GDAX API v1.
 
 ## Purpose
 
-This repo contains scripts to allow you to easily hit Coinbase Exchange Sandbox API endpoints to see the actual response returned by the API. This is useful for quickly exploring how the Coinbase Exchange API works.
+This repo contains scripts to allow you to easily test GDAX Sandbox API endpoints to see the actual response returned by the API. This is useful for quickly exploring how the GDAX API works.
 
-**_Please use only with Coinbase Exchange Sandbox accounts. These files are intended as examples only and may contain undesirable actions such as buys and sells at undesirable prices._**
-
-https://public.sandbox.exchange.coinbase.com/
+**_Please use only with GDAX Sandbox accounts (https://public.sandbox.gdax.com/). These files are intended as examples only and may contain undesirable actions such as buys and sells at undesirable prices._**
 
 ## Usage
 
-Change into the `methods` directory and run the file for the method you want
+1. Create an new API key, secret, and passphrase at https://public.sandbox.gdax.com/settings/api
+2. Edit client.js to add your new API key, secret, and passphrase
+3. Change into the `methods` directory and run the file for the method you want
 to call. The response will be logged to the console.
+
+  ```
+  cd methods
+  node market_data/products/01_get_products.js
+  ```
 
 ## License & Disclaimer
 

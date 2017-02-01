@@ -1,7 +1,7 @@
 var Gdax = require('gdax');
 
 /**
- * Enter your Coinbase Exchange Sandbox API key, API secret, and the passphrase
+ * Enter your GDAX Sandbox API key, API secret, and the passphrase
  * you specified when creating the API key pair.
  */
 
