@@ -29,7 +29,11 @@ async.waterfall([
         return;
       }
 
-      console.log(data);
+      if (data.length) {
+        console.log(data);
+      } else {
+        console.log('No holds');
+      }
     });
 
   }
