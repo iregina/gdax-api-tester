@@ -10,10 +10,13 @@ This repo contains scripts to allow you to easily test GDAX Sandbox API endpoint
 
 ## Usage
 
-1. Create an new API key, secret, and passphrase at https://public.sandbox.gdax.com/settings/api
+1. git clone https://github.com/jborseth/gdax-api-tester.git
+2. cd gdax-api-tester
+3. npm install
+4. Create an new API key, secret, and passphrase at https://public.sandbox.gdax.com/settings/api
 2. Edit client.js to add your new API key, secret, and passphrase
 3. Change into the `methods` directory and run the file for the method you want
-to call. The response will be logged to the console.
+to call. The response will be logged to the console. For example:
 
   ```
   cd methods
