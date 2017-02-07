@@ -1,8 +1,7 @@
 /**
- * Get 24 hour stats
+ * Get 24hr Stats
  *
- * Docs:
- *   https://docs.exchange.coinbase.com/#get-24hr-stats
+ * https://docs.gdax.com/#get-24hr-stats
  */
 
 var publicClient = require('../../../client').publicClient;

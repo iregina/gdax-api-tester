@@ -1,8 +1,7 @@
 /**
- * Get product order book
+ * Get Product Order Book
  *
- * Docs:
- *   https://docs.exchange.coinbase.com/#get-product-order-book
+ * https://docs.gdax.com/#get-product-order-book
  */
 
 var publicClient = require('../../../client').publicClient;

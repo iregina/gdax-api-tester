@@ -1,8 +1,7 @@
 /**
- * Get products
+ * Get Products
  *
- * Docs:
- *   https://docs.exchange.coinbase.com/#get-products
+ * https://docs.gdax.com/#get-products
  */
 
 var publicClient = require('../../../client').publicClient;

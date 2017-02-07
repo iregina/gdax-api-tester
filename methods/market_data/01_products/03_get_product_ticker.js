@@ -1,8 +1,7 @@
 /**
- * Get product ticker
+ * Get Product Ticker
  *
- * Docs:
- *   https://docs.exchange.coinbase.com/#get-product-ticker
+ * https://docs.gdax.com/#get-product-ticker
  */
 
 var publicClient = require('../../../client').publicClient;

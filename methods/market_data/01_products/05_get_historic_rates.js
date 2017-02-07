@@ -1,8 +1,7 @@
 /**
- * Get product historic rates
+ * Get Historic Rates
  *
- * Docs:
- *   https://docs.exchange.coinbase.com/#get-historic-rates
+ * https://docs.gdax.com/#get-historic-rates
  */
 
 var publicClient = require('../../../client').publicClient;

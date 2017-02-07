@@ -1,8 +1,7 @@
 /**
- * Get the API server's time
+ * Time
  *
- * Docs:
- *   https://docs.exchange.coinbase.com/#time
+ * https://docs.gdax.com/#time
  */
 
 var publicClient = require('../../../client').publicClient;

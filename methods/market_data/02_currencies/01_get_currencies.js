@@ -1,8 +1,7 @@
 /**
  * Get currencies
  *
- * Docs:
- *   https://docs.exchange.coinbase.com/#get-currencies
+ * https://docs.gdax.com/#get-currencies
  */
 
 var publicClient = require('../../../client').publicClient;
