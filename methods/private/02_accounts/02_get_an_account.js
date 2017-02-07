@@ -1,8 +1,7 @@
 /**
- * Get an account
+ * Get an Account
  *
- * Docs:
- *   https://docs.exchange.coinbase.com/#get-an-account
+ * https://docs.gdax.com/#get-an-account
  */
 
 var async = require('async');

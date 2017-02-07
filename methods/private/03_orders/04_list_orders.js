@@ -1,8 +1,7 @@
 /**
- * List orders
+ * List Orders
  *
- * Docs:
- *   https://docs.exchange.coinbase.com/#list-orders
+ * https://docs.gdax.com/#list-orders
  */
 
 var authedClient = require('../../../client').authedClient;

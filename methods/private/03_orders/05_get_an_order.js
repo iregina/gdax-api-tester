@@ -1,12 +1,11 @@
 /**
- * Cancel an order
+ * Get an Order
  *
- * Docs:
- *   https://docs.exchange.coinbase.com/#cancel-an-order
+ * https://docs.gdax.com/#get-an-order
  */
 
-var async = require('async');
 var authedClient = require('../../../client').authedClient;
+var async = require('async');
 
 
 async.waterfall([
@@ -31,13 +30,12 @@ async.waterfall([
     // Alternatively, you can manually specify an order ID here
     // var orderId = '';
 
-    authedClient.cancelOrder(orderId, function(err, response, result) {
+    authedClient.getOrder(orderId, function(err, response, order) {
       if (err) {
         console.log(err);
         return;
       }
-
-      console.log(result);
+      console.log(order);
     });
   }
 ]);

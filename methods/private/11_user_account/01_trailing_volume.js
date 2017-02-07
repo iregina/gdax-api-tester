@@ -1,11 +1,9 @@
 /**
  * Trailing Volume
  *
- * Docs:
- *   https://docs.gdax.com/#user-account
+ * https://docs.gdax.com/#trailing-volume
  */
 
-var async = require('async');
 var authedClient = require('../../../client').authedClient;
 
 

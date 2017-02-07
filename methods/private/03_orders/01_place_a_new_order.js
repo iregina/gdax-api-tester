@@ -1,8 +1,7 @@
 /**
- * Place an order
+ * Place a New Order
  *
- * Docs:
- *   https://docs.exchange.coinbase.com/#place-a-new-order
+ * https://docs.gdax.com/#place-a-new-order
  */
 
 var authedClient = require('../../../client').authedClient;

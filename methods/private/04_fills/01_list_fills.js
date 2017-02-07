@@ -1,8 +1,7 @@
 /**
- * List fills
+ * List Fills
  *
- * Docs:
- *   https://docs.exchange.coinbase.com/#list-fills
+ * https://docs.gdax.com/#list-fills
  */
 
 var authedClient  = require('../../../client.js').authedClient;

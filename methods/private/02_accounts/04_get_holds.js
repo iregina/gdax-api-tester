@@ -1,8 +1,7 @@
 /**
- * Get account history
+ * Get Holds
  *
- * Docs:
- *   https://docs.exchange.coinbase.com/#get-account-history
+ * https://docs.gdax.com/#get-holds
  */
 
 var async = require('async');
@@ -23,7 +22,7 @@ async.waterfall([
 
   }, function(accountId) {
 
-    authedClient.getAccountHistory(accountId, function(err, response, data) {
+    authedClient.getAccountHolds(accountId, function(err, response, data) {
       if (err) {
         console.log(err);
         return;
@@ -32,8 +31,9 @@ async.waterfall([
       if (data.length) {
         console.log(data);
       } else {
-        console.log('No account activity');
+        console.log('No holds');
       }
     });
+
   }
 ]);
