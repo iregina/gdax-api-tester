@@ -16,7 +16,7 @@ to call. The response will be logged to the console. For example:
 
   ```
   cd methods
-  node market_data/products/01_get_products.js
+  node market_data/01_products/01_get_products.js
   ```
 
 ## License & Disclaimer
